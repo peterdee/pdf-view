@@ -2,17 +2,30 @@
   "name": "pdf-view",
   "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "Peter Dyumin",
+    "url": "https://github.com/peterdee"
+  },
+  "description": "A demonstration of how the react-pdf should work with CRA-generated application",
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "serve": "node ./serve.js",
     "start": "react-scripts start"
   },
+  "engines": {
+    "node": "~14.16.0",
+    "npm": "~7.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterdee/pdf-view"
+  },
   "dependencies": {
-    "express": "^4.17.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-pdf": "^5.2.0",
+    "express": "4.17.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-pdf": "5.2.0",
     "react-scripts": "4.0.3"
   },
   "eslintConfig": {
