@@ -26,6 +26,8 @@ This is necessary only for the `react-pdf` though, as the contents of `worker.js
 yarn start
 ```
 
+Application is available at http://localhost:3000
+
 ### Build
 
 ```shell script
@@ -33,6 +35,14 @@ yarn build
 ```
 
 The `public` directory contains a `worker.js` file that should be copied to the `build` folder, otherwise `react-pdf` will not work properly when static files are created.
+
+### Serve static
+
+```shell script
+yarn serve
+```
+
+Static files are served with `express` on http://localhost:5500
 
 ### LICENSE
 

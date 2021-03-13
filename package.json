@@ -21,6 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/peterdee/pdf-view"
   },
+  "license": "MIT",
   "dependencies": {
     "express": "4.17.1",
     "react": "17.0.1",
